@@ -1,5 +1,52 @@
-body {
-    background-color: #eee;
+@font-face {
+	font-family: "Tangerine";
+	src: url("https://fonts.googleapis.com/css?family=Taviraj");
 }
 
-/*your code here*/
+body {
+	background-color: #eee;
+}
+
+h1 {
+	font-family: 'Taviraj', serif;
+	font-size: 48px;
+	text-shadow: 4px 4px 4px #aaa;
+	margin: 0 auto;
+	width: 500px; 
+}
+
+correct {
+	color:blue;
+}
+
+incorrect{
+	color:red;
+}
+
+incorrectanswer{
+	text-decoration: line-through;
+}
+
+div.container {
+    width:98%; 
+    margin:1%;
+  }
+
+table#table1 {
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:500px;
+ }
+
+ tr,td {
+ 	text-align:left;
+ 	border-bottom: 1px dashed grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th {
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
